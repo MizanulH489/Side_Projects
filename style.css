@@ -1,0 +1,46 @@
+BODY {
+	background: #035eb9;}
+
+
+
+.tile1 {background-position: left top;}
+.tile2 {background-position: center top;}
+.tile3 {background-position: right top;}
+.tile4 {background-position: left center;}
+.tile5 {background-position: center center;}
+.tile6 {background-position: right center;}
+.tile7 {background-position: left bottom;}
+.tile8 {background-position: center bottom;}
+.tile9 {background: rgb(255, 255, 255); cursor: default;}
+
+ 
+
+
+/* css for game container  */
+#puzzle-game {
+    text-align: center;
+}
+
+
+/* css for board  */
+#board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.tile {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+
